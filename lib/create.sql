@@ -1,0 +1,9 @@
+CREATE TABLE bears (
+id INT PRIMARY KEY,
+name TEXT NOT NULL,
+age INT DEFAULT 0,
+sex TEXT NOT NULL,
+color TEXT NOT NULL, 
+temperament TEXT NOT NULL,
+alive BOOLEAN
+);
